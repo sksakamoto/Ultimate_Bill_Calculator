@@ -1,3 +1,5 @@
+"""This program will calculate the bill."""
+
 def prompt_user():
 	global bill_without_tip
 	bill_without_tip = float(raw_input("How much is the bill not including tip? "))
